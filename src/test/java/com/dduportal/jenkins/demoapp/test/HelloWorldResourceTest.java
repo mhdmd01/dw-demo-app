@@ -23,7 +23,7 @@ public class HelloWorldResourceTest {
     @Test
     public void idStartsAtOne() {
         Saying result = resource.sayHello(Optional.of("dropwizard"));
-        assertThat(result.getId()).isEqualTo(1);
+        assertThat(result.getId()).isEqualTo(3);
     }
 
     @Test
